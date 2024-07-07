@@ -1,0 +1,1507 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:500|Montserrat:400italic,400,600,500,700");
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Impostazioni per i dispositivi mobili */
+@media screen and (max-width: 576px) {
+    .flex-screen .gallery {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .flex-screen .projects-card {
+        flex: 0 0 auto;
+    }
+
+    .flex-screen {
+        align-items: flex-start;
+        background-color: var(--white);
+        border: 1px none;
+        display: flex;
+        flex-direction: column;
+        min-width: 480px;
+        padding: 0px 0px 0px 0px;
+        position: relative;
+    }
+
+    .flex-screen .main-section-external {
+        padding: 20px;
+    }
+
+    .flex-screen .container-content {
+        align-self: stretch;
+        padding: 20px 0px 0px;
+        width: 100%;
+    }
+
+    .flex-screen .hey-this-is-carolina {
+        font-size: var(--font-size-m);
+        font-weight: 400;
+        letter-spacing: -0.64px;
+        line-height: 19.2px;
+        margin-top: -1.00px;
+    }
+
+    .flex-screen .column {
+        width: 100%;
+    }
+
+    .flex-screen .main-section-container{
+        align-items: flex-start;
+        border-radius: 16px;
+        flex-direction: column;
+        gap: 40px;
+        /* padding: 0px 20px; */
+    }
+
+    .flex-screen .card-image{
+        height: 380px;
+    }
+
+    .flex-screen .contact-title {
+        color: var(--log-cabin);
+        font-family: var(--font-family-montserrat);
+        font-size: var(--font-size-xxxl);
+        font-weight: 500;
+        letter-spacing: -1.70px;
+        line-height: 40.8px;
+        margin-top: -1.00px;
+        position: relative;
+    }
+
+    .flex-screen .projects-column {
+        flex: 0 0 auto;
+    }
+
+    .flex-screen .contacts-section {
+        padding: 20px;
+    }
+
+    .flex-screen .contacts-container {
+        flex: 0 0 auto;
+        padding: 40px 20px;
+    }
+
+    .flex-screen .contacts-column {
+        gap: 40px;
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .flex-screen .column-resume {    
+        align-items: flex-start;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+        width: 100%;
+    }
+
+    .flex-screen .pic-resume {
+        height: 300px;
+    }
+
+    .flex-screen .column-resume-internal {
+        align-self: stretch;
+        flex: 0 0 auto;
+        flex-direction: column;
+        width: 100%;
+    }
+
+      .flex-screen .column-resume-skills-int {
+        align-items: flex-start;
+        align-self: stretch;
+        flex: 0 0 auto;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+      }
+      
+      .flex-screen .column-resume-skills-ext {
+        align-items: center;
+        align-self: stretch;
+        border-radius: 30px;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        display: flex;
+        position: relative;
+      }
+
+      .flex-screen .column-resume-contact {
+        align-items: center;
+        align-self: stretch;
+        flex: 0 0 auto;
+        flex-wrap: wrap;
+        gap: 30px 30px;
+        overflow: hidden;
+        padding: 40px 30px;
+        width: 100%;
+      }
+
+      .flex-screen .card-resume-contact {
+        align-items: flex-start;
+        flex: 1;
+        flex-direction: column;
+        flex-grow: 1;
+        gap: 30px;
+        justify-content: center;
+        display: flex;
+        position: relative;
+      }
+
+    .flex-screen .softwares {
+        align-self: stretch;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 20px;
+        width: 100%;
+      }
+
+      .flex-screen .skillImage {
+        content: url(../img/Skills-mobile.svg);
+      }
+
+      .flex-screen .div-contact-mail {
+        flex-direction: column;
+      }
+
+      .flex-screen .images-external-div {
+        padding: 20px 0px 0px;
+      }
+}
+
+/* Impostazioni per i dispositivi tablet */
+@media (min-width: 577px) and (max-width: 992px) {
+    .flex-screen .container-content {
+        padding: 70px 0px 0px;
+        width: 100%;
+    }
+
+    .flex-screen .hey-this-is-carolina {
+        font-size: var(--font-size-xxl);
+        font-weight: 400;
+        letter-spacing: -0.96px;
+        line-height: 28.8px;
+        margin-top: -1.00px;
+    }
+
+
+    .flex-screen .column {
+        margin-right: -8.00px;
+        width: 100%;
+    }
+
+    .flex-screen .gallery {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .flex-screen .projects-card {
+        flex: 0 0 auto;
+    }
+
+    .flex-screen .main-section-external {
+        padding: 20px;
+    }
+
+    .flex-screen {
+        align-items: flex-start;
+        background-color: var(--white);
+        border: 1px none;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .flex-screen .main-section-container{
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 16px;
+        gap: 70px;
+        /* padding: 0px 40px; */
+    }
+
+    .flex-screen .card-image{
+        height: 465px;
+    }
+
+    .flex-screen .projects-column {
+        flex: 0 0 auto;
+    }
+
+    .flex-screen .contacts-section {
+        padding: 20px 20px 0px;
+    }
+
+    .flex-screen .contacts-container {
+        gap: 40px;
+        padding: 40px 30px;
+        flex-direction: column;
+        align-self: stretch;
+        display: flex;
+        flex: 0 0 auto;
+        position: relative;
+        width: 100%;
+    }
+    
+    .flex-screen .contacts-column {
+        gap: 60px;
+        flex: 0 0 auto;
+        width: 540px;
+    }
+
+    .flex-screen .column-resume {
+        flex: 0 0 auto;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        align-items: center;
+        border-radius: 30px;
+        gap: 20px;
+    }
+
+    .flex-screen .pic-resume {
+        height: 374px;
+    }
+
+    .flex-screen .card-resume-skills {
+        align-items: center;
+        background-color: var(--desert-storm);
+        border: 1px solid;
+        border-color: var(--mercury);
+        border-radius: 30px;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .flex-screen .column-resume-skills-int {
+        align-items: flex-start;
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex-screen .column-resume-contact {
+        align-items: flex-start;
+        gap: 30px;
+        padding: 40px 30px;
+    }
+
+      .flex-screen .softwares {
+        display: inline-flex;
+        gap: 20px;
+      }
+
+      .flex-screen .column-resume-skills-ext {
+        align-items: center;
+        align-self: stretch;
+        border-radius: 30px;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        display: flex;
+        position: relative;
+      }
+
+      .flex-screen .skillImage {
+        content: url(../img/Skills.svg);
+      }
+}
+
+/* Impostazioni per i dispositivi più grandi */
+@media (min-width: 992px) {
+    .flex-screen .gallery {
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .flex-screen .projects-card {
+        flex-grow: 1;
+        flex: 1;
+    }
+
+    .flex-screen {
+        align-items: flex-start;
+        background-color: var(--white);
+        border: 1px none;
+        display: flex;
+        flex-direction: column;
+        min-width: 992px;
+        position: relative;
+    }
+
+    .flex-screen .main-section-external {
+        padding: 20px;
+    }
+
+    .flex-screen .container-content {
+        padding: 70px 0px 0px;
+        width: 900px;
+    }
+
+    .flex-screen .hey-this-is-carolina {
+        font-size: var(--font-size-xxl);
+        font-weight: 400;
+        letter-spacing: -0.96px;
+        line-height: 28.8px;
+        margin-top: -1.00px;
+    }
+
+    .flex-screen .column {
+        align-self: stretch;
+        flex: 0 0 auto;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .flex-screen .main-section-container{
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 16px;
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .flex-screen .card-image{
+        max-height: none;
+        width: 100%;
+    }
+
+    .flex-screen .projects-column {
+        flex: 1;
+        flex-grow: 1;
+    }
+
+    .flex-screen .contacts-section {
+        padding: 20px 20px 0px;
+    }
+
+    .flex-screen .contacts-container {
+        align-items: center;
+        justify-content: space-between;
+        padding: 60px 40px;
+        align-self: stretch;
+        display: flex;
+        flex: 0 0 auto;
+        position: relative;
+        width: 100%;
+    }
+
+    .flex-screen .contacts-column {
+        gap: 60px;
+        padding-right: 20px;
+    }
+
+    .flex-screen .column-resume-desk {
+        align-items: flex-start;
+        align-self: stretch;
+        border-radius: 30px;
+        flex: 0 0 auto;
+        gap: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .flex-screen .pic-resume {
+        height: 374px;
+    }
+
+    .flex-screen .column-resume-internal {
+        align-self: stretch;
+        flex: 1;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    
+    .flex-screen .card-resume-skills {
+        align-items: center;
+        background-color: var(--desert-storm);
+        border: 1px solid;
+        border-color: var(--mercury);
+        border-radius: 30px;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .flex-screen .column-resume-skills-int {
+        align-items: flex-start;
+        flex: 1;
+        flex-direction: column;
+        flex-grow: 1.1;
+        gap: 20px;
+        display: flex;
+      }
+
+      /* .flex-screen .column-resume-skill-desk {
+        align-items: flex-start;
+        align-self: stretch;
+        border-radius: 30px;
+        flex: 0 0 auto;
+        gap: 20px;
+        justify-content: center;
+        width: 100%;
+      } */
+
+    .flex-screen .column-resume-contact {
+        align-items: flex-start;
+        align-self: stretch;
+        flex: 1;
+        flex-direction: column;
+        flex-grow: 1;
+        gap: 40px;
+        padding: 40px 30px;
+    }
+
+      .flex-screen .softwares {
+        display: inline-flex;
+        gap: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+      }
+
+    .flex-screen .column-resume-skills-ext {
+        align-items: flex-start;
+        align-self: stretch;
+        border-radius: 30px;
+        flex: 0 0 auto;
+        gap: 20px;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        position: relative;
+      }
+
+      .flex-screen .skillImage {
+        content: url(../img/Skills.svg);
+      }
+}
+
+.flex-screen .main-section-external {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 20px;
+    width: 100%;
+    align-self: stretch;
+    flex: 0 0 auto;
+    opacity: 0;
+    position: relative;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -20px;
+}
+
+.flex-screen .main-section-external.main-section-animation {
+    animation: main-section-animation-frames 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+.flex-screen .main-section-image.main-section-animation {
+    animation: main-section-animation-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+    opacity: 0;
+}
+
+.flex-screen .main-section-container{
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.flex-screen .main-section-image {
+    align-items: center;
+    align-self: stretch;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-color: var(--gray-nurse);
+    border-radius: 0px 0px 20px 20px;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 80px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 40px 30px;
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/header-image.png);
+}
+
+@keyframes main-section-animation-frames {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.flex-screen .navbar-container {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--desert-storm);
+    border: 1px solid;
+    border-color: var(--gray-nurse);
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.flex-screen .navbar-container.navbar-container-resume {
+  border-radius: 20px;
+}
+
+.flex-screen .navbar-brand-container {
+    background-color: var(--desert-storm);
+    height: 17px;
+    position: relative;
+    width: 180px;
+}
+
+.flex-screen .navbar-brand {
+    height: 27px;
+    left: -1px;
+    position: absolute;
+    top: 5px;
+    width: 155px;
+}
+
+.flex-screen .navbar-menu {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    justify-content: center;
+    position: relative;
+}
+
+.flex-screen .button-go-about {
+    align-items: center;
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 1px solid;
+    border-color: var(--log-cabin);
+    border-radius: 19.17px !important;
+    box-shadow: 0px 0px 3.15px #a22df71a;
+    cursor: pointer;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 10px 14px;
+    position: relative;
+    transition: all 0.2s ease;
+  }
+
+.flex-screen .button-go-about:hover {
+    transform: scale(1.1);
+    background-image: url(../img/button-go-to-about.png);
+}
+
+.button-resume {
+    align-items: center;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url(../img/button-go-to-about.png);
+    border: 1px solid;
+    border-color: var(--log-cabin);
+    border-radius: 19.17px;
+    box-shadow: 0px 0px 3.15px #a22df71a;
+    cursor: pointer;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 10px 14px;
+    position: relative;
+    transition: all 0.2s ease;
+  }
+
+.flex-screen .button-resume:hover {
+    transform: scale(1.1);
+}
+
+.flex-screen .tag-arrow {
+    height: 11.36px;
+    margin-right: -0.65px;
+    position: relative;
+    width: 11.36px;
+  }
+
+.flex-screen .container-content {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+
+.flex-screen .navbar-link {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 4px;
+    padding: 12px;
+    position: relative;
+}
+
+.flex-screen .hey-this-is-carolina {
+    color: var(--log-cabin);
+    font-family: var(--font-family-montserrat);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.flex-screen .creating-impactful-digital-experiences {
+    align-self: stretch;
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.flex-screen .contact-form {
+    width: 100%;
+}
+
+.flex-screen .contact-form-element {
+    border: 1px solid;
+    border-color: var(--mercury);
+    font-family: var(--font-family-montserrat);
+    font-size: 16px;
+    resize: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.flex-screen .contact-form-element-textarea {
+    height: 80px;
+}
+
+.flex-screen .column {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.flex-screen .currently-product-designer-wethod {
+    align-self: stretch;
+    color: var(--log-cabin);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 25.6px;
+    margin-top: -1.00px;
+    position: relative;
+}
+
+.flex-screen .projects {
+    align-items: flex-start;
+    align-self: stretch;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    opacity: 0;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    max-width: 1440px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-screen .contacts-animation {
+    animation: projects-animation-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+    opacity: 0;
+}
+
+.flex-screen .projects.projects-animation {
+    animation: projects-animation-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+    opacity: 0;
+}
+
+.flex-screen .resume-animation {
+    animation: projects-animation-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+    opacity: 0;
+}
+
+@keyframes projects-animation-frames {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.flex-screen .gallery {
+    align-self: stretch;
+    border-radius: 30px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.flex-screen .projects-card {
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--desert-storm);
+    border: 1px solid;
+    border-color: var(--mercury);
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+}
+
+.flex-screen .projects-card:hover {
+    transform: rotate(-1deg);
+    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.10);
+}
+
+.flex-screen .projects-column {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.flex-screen .tags {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+    width: 100%;
+}
+
+.flex-screen .frame-UI {
+    align-items: flex-start;
+    border: 1px solid;
+    background-color: var(--perano);
+    border-color: var(--pigeon-post);
+    border-radius: 6px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 6px;
+    position: relative;
+}
+
+.flex-screen .img {
+    align-items: center;
+    align-self: stretch;
+    border-radius: 10px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.flex-screen .tag-text {
+    letter-spacing: 0;
+    line-height: 22.4px;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+
+.flex-screen .frame-DS {
+    align-items: flex-start;
+    background-color: #cbbcf3;
+    border: 1px solid;
+    border-color: var(--biloba-flower);
+    border-radius: 6px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 6px;
+    position: relative;
+}
+
+ .flex-screen .footer {
+    align-items: center;
+    align-self: stretch;
+    background-color: transparent;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    padding: 20px 40px 40px;
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flex-screen .tag-arrow.resume-arrow {
+    rotate: 45deg;
+  }
+
+  .flex-screen .copyright {
+    flex: 1;
+    letter-spacing: -0.72px;
+    line-height: 21.6px;
+    position: relative;
+  }
+
+  .flex-screen .contact-row-text {
+    letter-spacing: 0;
+    line-height: 25.6px;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+
+  .flex-screen .contact-row-div {
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--alabaster);
+    border: 1px solid;
+    border-color: var(--alto);
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    justify-content: center;
+    padding: 8px;
+    position: relative;
+    transition: all 0.2s ease;
+    width: 100%;
+  }
+
+.flex-screen .frame-RES {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 10px;
+    padding: 6px;
+    position: relative;
+    background-color: var(--manhattan);
+    border: 1px solid;
+    border-color: var(--tumbleweed);
+    border-radius: 6px;
+    flex: 0 0 auto;
+}
+
+.flex-screen .frame-UX {
+    align-items: flex-start;
+    background-color: var(--fringy-flower);
+    border: 1px solid;
+    border-color: var(--moss-green);
+    border-radius: 6px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 6px;
+    position: relative;
+}
+
+.flex-screen .frame-PROTO {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--orchid);
+    background-color: var(--chantilly);
+    border-radius: 6px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 6px;
+    position: relative;
+}
+
+@-webkit-keyframes rotating {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    -webkit-animation: rotating 3s linear infinite;
+}
+
+.flex-screen .about-card {
+    align-items: flex-end;
+    align-self: stretch;
+    background-color: var(--desert-storm);
+    border: 1px solid;
+    border-color: var(--mercury);
+    border-radius: 30px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 30px;
+    position: relative;
+}
+
+.flex-screen .contacts-section {
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--white);
+    border-radius: 20px;
+    flex: 0 0 auto;
+    flex-direction: column;
+    opacity: 0;
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-screen .contacts-column {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.flex-screen .contacts-title-container {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    position: relative;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.flex-screen .mail-contact:hover {
+    background-color: #F3CAA2
+}
+
+.flex-screen .mail-icon {
+    height: 17px;
+    position: relative;
+    width: 20px;
+}
+
+.flex-screen .button-send-mail {
+    border-color: #222222 !important;
+}
+
+.flex-screen .button-send-mail:hover {
+    transform: scale(1.05);
+    background-image: url(../img/button-go-to-about.png);
+}
+
+.flex-screen .linkedin-contact:hover {
+    background-color: #A5CBF1
+}
+
+.flex-screen .icon-20px {
+    height: 20px;
+    position: relative;
+    width: 20px;
+}
+
+.flex-screen .dribble-contact:hover {
+    background-color: #F4B7E6
+}
+
+.flex-screen .fiverr-contact:hover {
+    background-color: #BAE1BA
+}
+
+.flex-screen .images-external-div {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    position: relative;
+}
+
+.flex-screen .images-extarnal-column {
+    height: 400px;
+    position: relative;
+    width: 690px;
+}
+
+.flex-screen .images-external-flex-col {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 0;
+    min-height: 400px;
+    position: absolute;
+    top: 0;
+    width: 496px;
+}
+
+.flex-screen .images-card-container {
+    min-width: 496px;
+    align-items: flex-start;
+    display: flex;
+    gap: 14px;
+}
+
+.flex-screen .looking-art-image {
+    align-items: flex-end;
+    background-image: url(../img/looking-art-desk.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    height: 196px;
+    justify-content: flex-end;
+    min-width: 282px;
+    padding: 8px;
+}
+
+.flex-screen .images-frame {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 10px;
+    padding: 6px;
+    position: relative;
+    -webkit-backdrop-filter: blur(10px) brightness(100%);
+    backdrop-filter: blur(10px) brightness(100%);
+    background-color: var(--white-2);
+    border-radius: 10px;
+}
+
+.flex-screen .petting-cats-image {
+    align-items: flex-end;
+    background-image: url(../img/petting-cats-desk.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    height: 196px;
+    justify-content: flex-end;
+    min-width: 200px;
+    padding: 8px;
+}
+
+.flex-screen .singing-image {
+    align-items: flex-start;
+    background-image: url(../img/singing-desk.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    height: 196px;
+    min-width: 134px;
+    padding: 8px;
+}
+
+.flex-screen .singing-text {
+    letter-spacing: 0;
+    line-height: 22.4px;
+    margin-top: -1.00px;
+    position: relative;
+    width: 92px;
+}
+
+.flex-screen .air {
+    align-items: flex-end;
+    background-image: url(../img/air.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 20px;
+    display: block;
+    height: 196px;
+    justify-content: flex-end;
+    min-width: 200px;
+    padding: 8px;
+}
+
+.flex-screen .exploring-image {
+    align-items: flex-start;
+    background-image: url(../img/exploring-desk.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 20px;
+    display: block;
+    height: 196px;
+    min-width: 134px;
+    padding: 8px;
+}
+
+.flex-screen .loving-cinema-video {
+    align-items: flex-end;
+    background: url(../img/cinema.mp4) repeat;
+    background-position: 50% 50%;
+    border-radius: 20px;
+    display: block;
+    height: 265px;
+    justify-content: flex-end;
+    min-width: 180px;
+    padding: 8px;
+}
+
+.flex-screen .images-card-container-2 {
+    flex-direction: column;
+    left: 510px;
+    min-height: 401px;
+    position: absolute;
+    top: 0;
+    width: 180px;
+    align-items: flex-start;
+    display: flex;
+    gap: 14px;
+}
+
+.flex-screen .swimming-image {
+    align-items: flex-end;
+    background-image: url(../img/swimming.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    height: 122px;
+    min-width: 180px;
+    padding: 8px;
+}
+
+.flex-screen .card-image {
+  flex: 1;
+  flex-grow: 1;
+  object-fit: cover;
+  position: relative;
+}
+
+.flex-screen .card-title {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 38.4px;
+    margin-top: -1.00px;
+    position: relative;
+  }
+
+  .flex-screen .contact-title {
+    flex: 1;
+    letter-spacing: -2.00px;
+    line-height: 40px;
+    margin-top: -1.00px;
+    position: relative;
+  }
+
+  .flex-screen .subheader-text {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    position: relative;
+  }
+
+  .flex-screen .contacts-container {
+    align-items: center;
+    background-color: var(--desert-storm);
+    border-color: var(--gray-nurse) !important;
+    border: 1px solid;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.flex-screen .resume {
+    cursor: pointer;
+    letter-spacing: 0;
+    line-height: 14px;
+    margin-top: -1.00px;
+    position: relative;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.flex-screen .container-resume {
+    align-items: flex-start;
+    align-self: stretch;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px 0px;
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-screen .column-resume {
+    align-self: stretch;
+    display: flex;
+    position: relative;
+}
+
+.flex-screen .pic-resume {
+    flex: 1;
+    flex-grow: 1;
+    object-fit: cover;
+    position: relative;
+}
+
+.flex-screen .column-resume-internal {
+    align-items: center;
+    background-color: var(--desert-storm);
+    border: 1px solid;
+    border-color: var(--mercury);
+    border-radius: 30px;
+    gap: 20px;
+    padding: 30px;
+  }
+
+  .flex-screen .txt-tags {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    width: 100%;
+  }
+
+  .flex-screen .address {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 25.6px;
+    position: relative;
+  }
+
+  .flex-screen .tag-resume-container {
+    align-items: flex-start;
+    background-color: var(--seashell);
+    border: 1px solid;
+    border-color: var(--alto);
+    border-radius: 6px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 6px 8px;
+    position: relative;
+  }
+
+  .flex-screen .tag-resume-icon {
+    height: 21px;
+    position: relative;
+    width: 21px;
+  }
+
+  .flex-screen .icon {
+    height: 18px;
+    left: 1px;
+    position: absolute;
+    top: 2px;
+    width: 19px;
+  }
+
+  .flex-screen .resume-dates-title {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 32.0px;
+    position: relative;
+  }
+
+  .flex-screen .card-resume {
+    align-self: stretch;
+    flex-direction: column;
+    display: flex;
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+    background-color: var(--desert-storm);
+    border: 1px solid;
+    border-color: var(--mercury);
+    border-radius: 30px;
+    gap: 20px;
+    padding: 30px;
+  }
+
+  .flex-screen .overlap-group {
+    height: 29px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 20px;
+  }
+
+  .flex-screen .column-resume-contact {
+    background-color: var(--desert-storm);
+    border: 1px solid;
+    border-color: var(--gray-nurse);
+    border-radius: 30px;
+  }
+
+  .flex-screen .imagesSoft {
+    object-fit: cover;
+    position: relative;
+  }
+
+  .flex-screen .sketch-image {
+    height: 24px;
+    object-fit: cover;
+    position: relative;
+    width: 26px;
+  }
+
+  .flex-screen .software-item {
+    align-items: center;
+    background-color: white;
+    border: 1px solid;
+    border-color: var(--mercury);
+    border-radius: 12px;
+    box-shadow: 0px 2px 6px #0000001a;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    height: 54px;
+    justify-content: center;
+    position: relative;
+    transition: all 0.2s ease;
+    width: 54px;
+  }
+  
+  .flex-screen .appleM:hover {
+    background-color: #F4B7E6
+  }
+  
+  .flex-screen .notion:hover {
+    background-color: #BAE1BA
+  }
+  
+  .flex-screen .framer:hover {
+    background-color: #A5CBF1
+  }
+
+  .flex-screen .xd:hover {
+    background-color: #F4B7E6
+  }
+  
+  .flex-screen .discord:hover {
+    background-color: #CBBCF3
+  }
+  
+  .flex-screen .sketch:hover {
+    background-color: #F3CAA2
+  }
+  
+  .flex-screen .figma:hover {
+    background-color: #F3CAA2
+  }
+
+  .flex-screen .softwares {
+    align-items: flex-start;
+    flex: 0 0 auto;
+    position: relative;
+  }
+
+  .flex-screen .list {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .flex-screen .tag {
+    align-items: center;
+    background-color: var(--seashell);
+    border: 1px solid;
+    border-color: var(--alto);
+    border-radius: 6px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 6px 8px;
+    position: relative;
+  }
+
+  .flex-screen .div-contact-mail.div-contact {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .flex-screen .div-contact-mail {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    gap: 12px;
+    position: relative;
+    width: 100%;
+  }
+
+  .flex-screen .resume-text {
+    letter-spacing: -0.14px;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    width: fit-content;
+  }
+
+  .flex-screen .card-resume-contact {
+    align-items: flex-start;
+    gap: 60px;
+    justify-content: center;
+    align-self: stretch;
+    flex-direction: column;
+    display: flex;
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+}

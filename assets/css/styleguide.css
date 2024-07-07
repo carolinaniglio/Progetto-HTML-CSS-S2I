@@ -1,0 +1,172 @@
+:root { 
+    --alabaster: #fafafa;
+    --alto: #dddddd;
+    --biloba-flower: #b9a7e8;
+    --brink-pink: #f26879;
+    --cape-cod: #404040;
+    --chantilly: #f4b7e6;
+    --desert-storm: #f8f8f8;
+    --fringy-flower: #bae1ba;
+    --gray-nurse: #eaeaea;
+    --log-cabin: #222222;
+    --mandy: #f15367;
+    --manhattan: #f3caa2;
+    --mercury: #e4e4e4;
+    --moss-green: #a9d6a9;
+    --orchid: #dda7d0;
+    --perano: #a5cbf1;
+    --perfume: #cabbf3;
+    --pigeon-post: #98bbdd;
+    --rose-pearl: #ec3878;
+    --seashell: #f1f1f1;
+    --tumbleweed: #e1b589;
+    --white: #ffffff;
+    --white-2: #ffffffcc;
+   
+    --font-size-l: 18px;
+    --font-size-m: 16px;
+    --font-size-s: 14px;
+    --font-size-xl: 20px;
+    --font-size-xxl: 24px;
+    --font-size-xxxl: 34px;
+    --font-size-xxxxl: 40px;
+   
+    --font-family-montserrat: "Montserrat", Helvetica;
+    --font-family-montserrat_alternates: "Montserrat Alternates", Helvetica;
+  }
+  .montserrat-semi-bold-log-cabin-14px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .montserratalternates-medium-log-cabin-14px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-montserrat_alternates);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .montserrat-normal-log-cabin-18px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-semi-bold-log-cabin-16px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .montserrat-bold-log-cabin-24px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .montserrat-normal-cape-cod-16px {
+    color: var(--cape-cod);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserratalternates-medium-mandy-14px {
+    color: var(--mandy);
+    font-family: var(--font-family-montserrat_alternates);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .montserrat-semi-bold-cape-cod-14px {
+    color: var(--cape-cod);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .montserratalternates-medium-brink-pink-14px {
+    color: var(--brink-pink);
+    font-family: var(--font-family-montserrat_alternates);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .montserrat-semi-bold-mine-shaft-24px {
+    color: var(--mine-shaft);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .montserrat-medium-log-cabin-40px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxxxl);
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .montserrat-semi-bold-cape-cod-20px {
+    color: var(--cape-cod);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .montserrat-normal-cape-cod-18px {
+    color: var(--cape-cod);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-bold-log-cabin-14px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .montserrat-semi-bold-log-cabin-24px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .montserrat-bold-cape-cod-16px {
+    color: var(--cape-cod);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .montserrat-normal-cape-cod-16px-2 {
+    color: var(--cape-cod);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-style: italic;
+    font-weight: 400;
+  }
+  
