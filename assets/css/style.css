@@ -33,7 +33,6 @@
         border: 1px none;
         display: flex;
         flex-direction: column;
-        min-width: 480px;
         padding: 0px 0px 0px 0px;
         position: relative;
     }
@@ -851,7 +850,8 @@
 .flex-screen .tag-text {
     letter-spacing: 0;
     line-height: 22.4px;
-    margin-top: -1.00px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     position: relative;
     white-space: nowrap;
     width: fit-content;
@@ -1096,17 +1096,16 @@
     gap: 14px;
 }
 
+.flex-screen .images-container {
+    position: relative;
+}
+
 .flex-screen .looking-art-image {
-    align-items: flex-end;
-    background-image: url(../img/looking-art-desk.png);
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 20px;
-    display: flex;
     height: 196px;
-    justify-content: flex-end;
     min-width: 282px;
-    padding: 8px;
 }
 
 .flex-screen .images-frame {
@@ -1114,7 +1113,9 @@
     display: inline-flex;
     gap: 10px;
     padding: 6px;
-    position: relative;
+    left: 6px;
+    top: 6px;
+    position: absolute;
     -webkit-backdrop-filter: blur(10px) brightness(100%);
     backdrop-filter: blur(10px) brightness(100%);
     background-color: var(--white-2);
@@ -1122,73 +1123,42 @@
 }
 
 .flex-screen .petting-cats-image {
-    align-items: flex-end;
-    background-image: url(../img/petting-cats-desk.png);
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 20px;
-    display: flex;
     height: 196px;
-    justify-content: flex-end;
     min-width: 200px;
-    padding: 8px;
 }
 
 .flex-screen .singing-image {
-    align-items: flex-start;
-    background-image: url(../img/singing-desk.png);
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 20px;
-    display: flex;
     height: 196px;
     min-width: 134px;
-    padding: 8px;
-}
-
-.flex-screen .singing-text {
-    letter-spacing: 0;
-    line-height: 22.4px;
-    margin-top: -1.00px;
-    position: relative;
-    width: 92px;
 }
 
 .flex-screen .air {
-    align-items: flex-end;
-    background-image: url(../img/air.png);
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 20px;
-    display: block;
     height: 196px;
-    justify-content: flex-end;
     min-width: 200px;
-    padding: 8px;
 }
 
 .flex-screen .exploring-image {
-    align-items: flex-start;
-    background-image: url(../img/exploring-desk.png);
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 20px;
-    display: block;
     height: 196px;
     min-width: 134px;
-    padding: 8px;
 }
 
 .flex-screen .loving-cinema-video {
-    align-items: flex-end;
-    background: url(../img/cinema.gif);
     background-position: 50% 50%;
     border-radius: 20px;
-    display: block;
     height: 265px;
-    justify-content: flex-end;
     min-width: 180px;
-    padding: 8px;
 }
 
 .flex-screen .images-card-container-2 {
@@ -1204,15 +1174,11 @@
 }
 
 .flex-screen .swimming-image {
-    align-items: flex-end;
-    background-image: url(../img/swimming.svg);
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 20px;
-    display: flex;
     height: 122px;
     min-width: 180px;
-    padding: 8px;
 }
 
 .flex-screen .card-image {
