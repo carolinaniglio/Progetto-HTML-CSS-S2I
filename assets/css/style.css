@@ -648,10 +648,6 @@
     transition: all 0.2s ease;
   }
 
-.flex-screen .button-resume:hover {
-    transform: scale(1.1);
-}
-
 .flex-screen .tag-arrow {
     height: 11.36px;
     margin-right: -0.65px;
